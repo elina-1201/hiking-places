@@ -17,7 +17,7 @@
 	<p class="flex">Made by Elina M.</p>
 
 	<a target="_blank" href="https://github.com/elina-1201/hiking-places">
-		<img class="mr-2 h-[3vh] invert hover:invert-0 ease-in-out duration-300" src="/src/assets/images/github.png" alt="github icon">
+		<img class="mr-2 h-[3vh] invert hover:invert-0 ease-in-out duration-300" src="/images/github.png" alt="github icon">
 	</a>
 	
 </footer>

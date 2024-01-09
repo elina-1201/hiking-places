@@ -29,7 +29,7 @@ import MainPic from './components/MainPic.svelte';
 
 	<!-- <div class="grid">
 		<a href="/zelengora">
-			<div class="image-links bg-[url('/src/assets/images/zelengora/naslovna.jpg')]">
+			<div class="image-links bg-[url('/images/zelengora/naslovna.jpg')]">
 				<div class=" h-full w-full bg-black/20 flex justify-center items-center hover:bg-transparent ease-in-out duration-200">
 					<p class="bg-tertiary-50/75 p-5 rounded-lg text-2xl font-medium">Zelengora</p>
 				</div>
@@ -39,7 +39,7 @@ import MainPic from './components/MainPic.svelte';
 		
 	<div>
 		<a href="/vrata">
-			<div class="image-links bg-[url('/src/assets/images/vrata/naslovna.jpg')]">
+			<div class="image-links bg-[url('/images/vrata/naslovna.jpg')]">
 				<div class=" h-full w-full bg-black/20 flex justify-center items-center hover:bg-transparent ease-in-out duration-200">
 					<p class="bg-tertiary-50/75 p-5 rounded-lg text-2xl font-medium">Hajducka vrata</p>
 				</div>
@@ -49,7 +49,7 @@ import MainPic from './components/MainPic.svelte';
 
 	<!-- <div class="md:col-span-2">
 		<a href="/prenj">
-			<div class="image-links bg-[url('/src/assets/images/prenj/naslovna.jpg')]">
+			<div class="image-links bg-[url('/images/prenj/naslovna.jpg')]">
 				<div class=" h-full w-full bg-black/20 flex justify-center items-center hover:bg-transparent ease-in-out duration-200">
 					<p class="bg-tertiary-50/75 p-5 rounded-lg text-2xl font-medium">Prenj</p>
 				</div>
