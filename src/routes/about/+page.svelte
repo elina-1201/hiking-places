@@ -1,14 +1,39 @@
-<body class="text-3xl">
+<body>
+    <div class="w-full min-h-[90vh] flex justify-center items-center flex-col">
+        <p class="flex self-start mx-[1.5em] pb-1 font-semibold text-2xl border-b-2 border-primary-900"> 
+            Contact:
+        </p>
+
+        <form class="md:w-[50%] sm:w-[70%] w-[90%]" action="">
+            <div class="field">
+                <label for="">Name</label>
+                <input type="text">
+            </div>
+
+            <div class="field">
+                <label for="">Surname</label>
+                <input type="text">
+            </div>
     
+            <div class="field">
+                <label for="">Message</label>
+                <textarea class="w-[100%]" id="" cols="30" rows="10"></textarea>
+            </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget erat vestibulum, ultrices augue sit amet, imperdiet sem. Donec id feugiat mi. Donec maximus, turpis sit amet accumsan rutrum, purus mauris blandit lacus, sed iaculis sem ligula vel sapien. Vestibulum scelerisque ante hendrerit lorem consectetur pretium. Sed at tellus at purus feugiat vehicula. Maecenas eu nulla tempor, fermentum est eu, cursus neque. Proin placerat vehicula diam ut vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse potenti. Integer ullamcorper erat sed ultricies malesuada. Duis sapien nulla, porttitor ut blandit eget, pharetra vitae sapien. Maecenas viverra dolor accumsan turpis sagittis euismod. Ut sit amet nulla dignissim, posuere turpis eget, hendrerit nunc. Nunc vestibulum nisi ipsum, ac auctor leo fringilla et. Quisque sit amet sapien arcu. Vestibulum placerat metus mollis orci hendrerit hendrerit.
-
-Vivamus mattis id eros non suscipit. Donec vel ultricies est. Morbi ullamcorper elit sit amet lacinia volutpat. Nullam elit odio, maximus ac ipsum vitae, consequat pulvinar libero. Suspendisse volutpat erat eget eros facilisis egestas. Quisque aliquam velit ex, eget fermentum felis ornare vitae. Ut eget orci hendrerit, gravida nisl non, sodales orci. Aliquam et elit sapien. Vestibulum tincidunt quis odio vitae tempus. Fusce suscipit molestie nulla et venenatis. Sed luctus odio dolor, eget rhoncus augue iaculis sit amet. Proin eget nulla justo. Phasellus ut porta enim, id pulvinar quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
-Vivamus interdum vitae elit vitae accumsan. Nulla suscipit id mauris ac tincidunt. Phasellus accumsan, urna nec condimentum feugiat, orci lacus aliquam dolor, a gravida enim quam rhoncus purus. Etiam quis sollicitudin dolor. Nam eget augue tellus. Donec ullamcorper convallis ipsum quis posuere. Integer sollicitudin arcu porttitor mauris rhoncus faucibus. Mauris ultricies, lacus sed porta elementum, diam quam ultricies ligula, ut pulvinar risus mi aliquam est. Vivamus dignissim felis in vulputate venenatis. Curabitur eleifend tincidunt dui in tristique. Vestibulum lobortis ante id lacinia malesuada. Proin porttitor ligula arcu, quis aliquam mi fermentum eu. Sed quis erat leo. Pellentesque lobortis justo non vulputate mattis. Nullam commodo nec dui id suscipit.
-
-Nullam laoreet, libero vitae pellentesque feugiat, dui lectus faucibus odio, eget viverra sapien augue at nibh. Ut non nunc ex. Sed efficitur ipsum ac tellus posuere, vel ultricies est fringilla. Donec semper consequat ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel fermentum mauris, in molestie elit. Aliquam vehicula vitae est sed hendrerit. Fusce semper est quis quam viverra pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In faucibus placerat sem vitae pretium. Aliquam sed justo at nisi molestie interdum quis ut orci. Proin risus lacus, consectetur a consequat nec, viverra vel sapien. In et hendrerit dui. Donec sagittis vestibulum lacus nec viverra. Vivamus fringilla rhoncus urna, a volutpat mi lobortis ullamcorper. Pellentesque luctus, tortor vel tincidunt dignissim, erat nunc venenatis libero, imperdiet sagittis ipsum nulla eget diam.
-
-Donec dui nulla, cursus nec posuere eu, congue sit amet felis. Fusce pharetra, felis a auctor tincidunt, dui elit ornare mi, eget scelerisque turpis purus quis turpis. Nulla convallis lectus sem, sit amet ultricies velit semper id. Etiam auctor commodo eros, ut congue dolor aliquet non. Donec volutpat gravida purus. Mauris rhoncus turpis sed ipsum sodales commodo. Ut consectetur tristique mi et pulvinar. Nulla libero justo, lacinia a nunc et, mattis tristique urna. Duis orci erat, eleifend sit amet pellentesque et, pretium a eros. Sed pulvinar pretium eros id tincidunt. Pellentesque non semper neque. Pellentesque porttitor, est sit amet aliquam cursus, libero nisi faucibus enim, sit amet malesuada ipsum lacus at mi.
-
+            <input type="submit">
+        </form>
+    </div>
 </body>
+
+<style>
+    label{
+        margin: 0.5em 0;
+    }
+    input{
+        width: 100%;
+        padding: 0.5em 1em ;
+    }
+    .field {
+        margin: 1em;
+    }
+</style>

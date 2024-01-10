@@ -12,7 +12,7 @@
 <div class="p-10">
     <div class="grid lg:grid-cols-2 grid-cols-1">
         <div class="image-container">
-            <img class="page-image" src="src/assets/images/zelengora/1.png" {alt}/>
+            <img class="page-image w-full" src="/images/zelengora/1.png" {alt}/>
         </div>
 
         <div class="text-container">
@@ -26,8 +26,8 @@
 
     <div class="grid lg:grid-cols-2 grid-cols-1">
         {#if outerWidth < 1000}
-            <div class="image-container">
-                <img class="page-image w-10" src="src/assets/images/zelengora/2.png" {alt}/>
+            <div class="image-container w-[100%]">
+                <img class="page-image w-[70%]" src="/images/zelengora/2.png" {alt}/>
             </div>
         {/if}        
         <div class="text-container">
@@ -40,14 +40,14 @@
 
         {#if outerWidth > 1000}
             <div class="image-container">
-                <img class="page-image w-10" src="src/assets/images/zelengora/2.png" {alt}/>
+                <img class="page-image  md:w-full" src="/images/zelengora/2.png" {alt}/>
             </div>
         {/if}
     </div>
 
     <div class="grid lg:grid-cols-2 grid-cols-1">
         <div class="image-container">
-            <img class="page-image" src="src/assets/images/zelengora/3.png" {alt}/>
+            <img class="page-image" src="/images/zelengora/3.png" {alt}/>
         </div>
 
         <div class="text-container">
@@ -58,21 +58,22 @@
             </p>
         </div>
     </div>
-
 </div>
 
 <style>
     .page-image {
-        /* display: block; */
-        width: 100%;
+        margin: 5% 2%;
     }
     .text-container, .image-container{
         display: flex;
         justify-content: center;
-        align-items: center;
-        text-align: justify;
+        align-items: center;        
     }
-    .text-container {
-        padding: 5% 10%;
+    @media (min-width: 768px){
+        .text-container {
+            padding: 5% 10%;
+            text-align: justify;
+        }
     }
+
 </style>

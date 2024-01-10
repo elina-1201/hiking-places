@@ -7,7 +7,7 @@ import MainPic from './components/MainPic.svelte';
 
 <p class="text-2xl text-center m-5">Mountains to visit:</p>
 
-<div class="grid-wrapper grid md:grid-cols-[50%_50%] grid-cols-[100%]">
+<div class="grid md:grid-cols-[50%_50%] grid-cols-[100%]">
 	<Place
 		href = {'/zelengora'}
 		title={'Zelengora'}
@@ -17,7 +17,7 @@ import MainPic from './components/MainPic.svelte';
 		title = 'Hajducka Vrata'
 	/>
 	<Place
-		className = 'md: col-span-2'
+		className = 'md:col-span-2 col-span-1'
 		href = '/prenj'
 		title = 'Prenj'
 	/>

@@ -11,13 +11,12 @@
 	<slot />
 </div>
 
-<footer class="bg-primary-800 text-primary-100 flex justify-between items-center">
-	<div></div>
+<footer class="bg-primary-800 text-primary-100 flex items-center">
 
-	<p class="flex">Made by Elina M.</p>
+	<p class="block mr-auto ml-auto ">Made by Elina M.</p>
 
-	<a target="_blank" href="https://github.com/elina-1201/hiking-places">
-		<img class="mr-2 h-[3vh] invert hover:invert-0 ease-in-out duration-300" src="/images/github.png" alt="github icon">
+	<a class="absolute right-0" target="_blank" href="https://github.com/elina-1201/hiking-places">
+		<img class="mr-2 h-[2em] invert hover:invert-0 ease-in-out duration-300" src="/images/github.png" alt="github icon">
 	</a>
 	
 </footer>
@@ -25,7 +24,8 @@
 
 <style>
 	footer {
-		height: 5vh;
+		/* height: 50px; */
+		height: 3rem;
 	}
 	#body {
 		min-height: 95vh;
