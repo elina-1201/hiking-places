@@ -1,5 +1,7 @@
 <script>
-    import MainPic from "../components/MainPic.svelte";
+	import MainPic from "../components/MainPic.svelte";
 </script>
 
-<MainPic title = "Hajducka vrata" url="/vrata"/>
+<body>
+	<MainPic title = "Hajducka vrata" url="/vrata"/>
+</body>

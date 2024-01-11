@@ -5,7 +5,7 @@ import MainPic from './components/MainPic.svelte';
 </script>
 <MainPic/>
 
-<p class="text-2xl text-center m-5">Mountains to visit:</p>
+<p class="text-2xl text-center mx-5 mb-14 mt-5">Mountains to visit:</p>
 
 <div class="grid md:grid-cols-[50%_50%] grid-cols-[100%]">
 	<Place

@@ -25,7 +25,7 @@
     </div>
 
     <div class="grid lg:grid-cols-2 grid-cols-1">
-        {#if outerWidth < 1000}
+        {#if outerWidth < 1024}
             <div class="image-container w-[100%]">
                 <img class="page-image w-[70%]" src="/images/zelengora/2.png" {alt}/>
             </div>
@@ -38,9 +38,9 @@
             </p>
         </div>
 
-        {#if outerWidth > 1000}
+        {#if outerWidth >= 1024}
             <div class="image-container">
-                <img class="page-image  md:w-full" src="/images/zelengora/2.png" {alt}/>
+                <img class="page-image  md:w-[40em]" src="/images/zelengora/2.png" {alt}/>
             </div>
         {/if}
     </div>

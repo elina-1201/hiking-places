@@ -1,6 +1,6 @@
 <body>
     <div class="w-full min-h-[90vh] flex justify-center items-center flex-col">
-        <p class="flex self-start mx-[1.5em] pb-1 font-semibold text-2xl border-b-2 border-primary-900"> 
+        <p class="flex pb-1 ml-[-30%] mb-11 font-semibold text-2xl border-b-2 border-primary-900 dark:border-secondary-100"> 
             Contact:
         </p>
 
