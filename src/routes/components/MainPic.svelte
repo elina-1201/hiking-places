@@ -9,7 +9,10 @@
 
 	<div class="flex justify-center items-center bg-gradient-to-t from-transparent md:from-10% from-45% dark:to-primary-700 to-primary-500 h-[90%] w-full">
 
-		<h1 class="h2 p-5 text dark:bg-tertiary-500/75 bg-secondary-200/75 rounded-lg text-center">{title}</h1>
+		<h1 class="h2 p-5 mx-4
+		dark:bg-tertiary-500/75 bg-secondary-200/75 rounded-lg text-center">
+			{title}
+		</h1>
 
 	</div>
 </div>
