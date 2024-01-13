@@ -38,10 +38,10 @@ let className = 'md:col-span-2 col-span-1'
 	</div>
 		
 	<div>
-		<a href="/vrata">
+		<a href="/cvrsnica">
 			<div class="image-links bg-[url('/images/vrata/naslovna.jpg')]">
 				<div class=" h-full w-full bg-black/20 flex justify-center items-center hover:bg-transparent ease-in-out duration-200">
-					<p class="bg-tertiary-50/75 p-5 rounded-lg text-2xl font-medium">Hajducka vrata</p>
+					<p class="bg-tertiary-50/75 p-5 rounded-lg text-2xl font-medium">Čvrsnica/p>
 				</div>
 			</div>
 		</a>

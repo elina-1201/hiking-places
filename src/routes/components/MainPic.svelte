@@ -2,7 +2,7 @@
 // @ts-nocheck
 
 	export let url = "";
-	export let title = "Website with the most beautiful hiking places"
+	export let title = "The most beautiful hiking places in Bosnia and Herzegovina"
 </script>
 
 <div style="background-image: url('/images{url}/naslovna.jpg')" class="clipped md:bg-fixed bg-cover bg-center w-full h-[25rem] md:h-screen">
