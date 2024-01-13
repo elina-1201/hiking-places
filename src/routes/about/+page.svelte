@@ -6,7 +6,7 @@
         border-4 border-primary-500 dark:border-secondary-300 rounded-2xl
         flex justify-center items-center flex-col">
 
-            <p class="flex pb-1 ml-[-30%] mb-11 mt-16 font-semibold text-2xl border-b-2 border-primary-900 dark:border-secondary-100"> 
+            <p class="flex pb-1 ml-[-30%] mb-11 mt-16 font-semibold text-4xl border-b-2 border-primary-900 dark:border-secondary-100"> 
                 Contact
             </p>
     

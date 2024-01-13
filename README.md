@@ -16,8 +16,9 @@ This minimalist project is a heartfelt attempt to showcase Bosnia and Herzegovin
 
 In the process of creating this website, I embraced new frontend technologies to ensure a seamless user experience. The tools utilized include:
 
-- **Svelte:** A modern frontend framework for building efficient and delightful user interfaces.
-- **Bootstrap:** A responsive and versatile CSS framework that enhances the overall design and responsiveness.
+- **[Svelte:](https://svelte.dev/)** A modern frontend framework for building efficient and delightful user interfaces.
+- **[Tailwind CSS:](https://tailwindcss.com/)** A utility-first CSS framework that empowers a flexible and customized approach to design and responsiveness.
+- **[Skeleton:](https://www.skeleton.dev/)** A lightweight and responsive boilerplate for creating simple and clean user interfaces, offering a minimalistic grid system and styles to facilitate rapid development.
 
 ## Explore Now!
 

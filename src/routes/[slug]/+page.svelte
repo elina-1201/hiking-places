@@ -74,6 +74,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		font-size: large;
 	}
 	@media (min-width: 768px){
 		.text-container {
