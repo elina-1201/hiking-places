@@ -22,7 +22,7 @@
 <div class="2xl:mx-28 ld:p-10 p-5 mt-10">
 	<div class="grid lg:grid-cols-2 grid-cols-1">
 		<div class="image-container">
-			<img class="page-image w-full" src="/images/{place.slug}/1.png" {alt}/>
+			<img class="page-image w-full" src="/images/{place.slug}/1.webp" {alt}/>
 		</div>
 
 		<div class="text-container">
@@ -35,7 +35,7 @@
 	<div class="grid lg:grid-cols-2 grid-cols-1">
 		{#if outerWidth < 1024}
 			<div class="image-container w-[100%]">
-				<img class="page-image {widthMob}" src="/images/{place.slug}/2.png" {alt}/>
+				<img class="page-image {widthMob}" src="/images/{place.slug}/2.webp" {alt}/>
 			</div>
 		{/if}        
 		<div class="text-container">
@@ -46,14 +46,14 @@
 
 		{#if outerWidth >= 1024}
 			<div class="image-container">
-				<img class="page-image  md:{widthPC}" src="/images/{place.slug}/2.png" {alt}/>
+				<img class="page-image  md:{widthPC}" src="/images/{place.slug}/2.webp" {alt}/>
 			</div>
 		{/if}
 	</div>
 
 	<div class="grid lg:grid-cols-2 grid-cols-1">
 		<div class="image-container">
-			<img class="page-image" src="/images/{place.slug}/3.png" {alt}/>
+			<img class="page-image" src="/images/{place.slug}/3.webp" {alt}/>
 		</div>
 
 		<div class="text-container">
