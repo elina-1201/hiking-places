@@ -64,7 +64,7 @@
 
 						<li>
 							<a href="https://www.instagram.com/dzenad_dzino/" target="_blank">
-								Instagram of the photograph
+								Instagram of the photographer
 							</a>
 						</li>
 					</ul>
@@ -80,8 +80,8 @@
 		mask-size: 100% 100%;
     }
 	.labeled {
-		mask-image: url(/images/labelMask.png);
-		-webkit-mask-image: url(/images/labelMask.png);
+		mask-image: url(/images/labelMask.svg);
+		-webkit-mask-image: url(/images/labelMask.svg);
 	}
 	li{
 		margin: 0.5em;

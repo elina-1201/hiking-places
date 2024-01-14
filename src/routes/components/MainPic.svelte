@@ -18,8 +18,8 @@
 </div>
 <style>
 	.clipped{
-		mask-image: url(/images/MainPicMask.png);
-		-webkit-mask-image: url(/images/MainPicMask.png);
+		mask-image: url(/images/MainPicMask.webp);
+		-webkit-mask-image: url(/images/MainPicMask.webp);
 		mask-repeat: no-repeat;
 		-webkit-mask-repeat: no-repeat;
 		mask-size: 100% 100%;

@@ -8,7 +8,7 @@
 	let scrollY;
 
 	$: {
-		if(scrollY > 30) {
+		if(scrollY > 0) {
 			navBar.classList.add("fixed");
 		}
 		else if(scrollY == 0) {
@@ -38,7 +38,7 @@ flex items-center">
 	<p class="block mr-auto ml-auto">Made by Elina M.</p>
 
 	<a class="absolute right-0" target="_blank" href="https://github.com/elina-1201/hiking-places">
-		<img class="mr-2 h-[2em] invert hover:invert-0 ease-in-out duration-300" src="/images/github.svg" alt="github icon">
+		<img class="mr-2 h-[2em] invert-[90%] hover:invert-0 ease-in-out duration-300" src="/images/github.svg" alt="github icon">
 	</a>
 </footer>
 

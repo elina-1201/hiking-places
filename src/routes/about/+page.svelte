@@ -93,8 +93,8 @@
 		mask-size: 100% 100%;
 	}
 	.clipped {
-		mask-image: url(/images/aboutMask.png);
-		-webkit-mask-image: url(/images/aboutMask.png);
+		mask-image: url(/images/aboutMask.webp);
+		-webkit-mask-image: url(/images/aboutMask.webp);
 	}
 
 </style>

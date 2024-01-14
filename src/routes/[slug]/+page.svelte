@@ -76,11 +76,10 @@
 		align-items: center;
 		font-size: large;
 	}
-	@media (min-width: 768px){
+	@media (min-width: 550px){
 		.text-container {
 			padding: 5% 10%;
 			text-align: justify;
 		}
 	}
-
 </style>
